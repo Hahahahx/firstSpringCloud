@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ux-service/common/common.iml" filepath="$PROJECT_DIR$/ux-service/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ux-service/course/course.iml" filepath="$PROJECT_DIR$/ux-service/course/course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/firstSpringCloud.iml" filepath="$PROJECT_DIR$/.idea/firstSpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ux-service/user/user.iml" filepath="$PROJECT_DIR$/ux-service/user/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ux-eureka/ux-eureka.iml" filepath="$PROJECT_DIR$/ux-eureka/ux-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ux-service/ux-service.iml" filepath="$PROJECT_DIR$/ux-service/ux-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ux-zuul/ux-zuul.iml" filepath="$PROJECT_DIR$/ux-zuul/ux-zuul.iml" />
+    </modules>
+  </component>
+</project>

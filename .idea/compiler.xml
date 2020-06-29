@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="user" />
+        <module name="common" />
+        <module name="ux-eureka" />
+        <module name="course" />
+        <module name="ux-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="course" target="1.8" />
+      <module name="user" target="1.8" />
+      <module name="ux-eureka" target="1.8" />
+      <module name="ux-service" target="1.8" />
+      <module name="ux-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="course" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="ux-eureka" options="-parameters" />
+      <module name="ux-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

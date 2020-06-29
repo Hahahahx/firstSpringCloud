@@ -1,0 +1,48 @@
+# java -jar ux-eureka-1.0-SNAPSHOT.jar --spring.profiles.active=server1 启动server1服务
+
+
+
+#spring:
+#  application:
+#    name: ux-eureka
+#  profiles: server1
+#server:
+#  port: 8000
+#eureka:
+#  instance:
+#    hostname: ux.server1.com
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      # 注册到另外两个server中
+#      defaultZone: http://ux.server2.com:8001/eureka/,http://ux.server3.com:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: ux-eureka
+#  profiles: server2
+#server:
+#  port: 8001
+#eureka:
+#  instance:
+#    hostname: ux.server2.com
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://ux.server1.com:8000/eureka/,http://ux.server3.com:8002/eureka/
+#
+#---
+#spring:
+#  application:
+#    name: ux-eureka
+#  profiles: server3
+#server:
+#  port: 8002
+#eureka:
+#  instance:
+#    hostname: ux.server3.com
+#    prefer-ip-address: false
+#  client:
+#    service-url:
+#      defaultZone: http://ux.server2.com:8001/eureka/,http://ux.server1.com:8000/eureka/

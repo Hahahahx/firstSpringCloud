@@ -1,0 +1,27 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: ux-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ux.server1.com:8000/eureka/
+zuul:
+  # 接收所有以xh的uri
+  prefix: /xh
+  routes:
+    course:
+      # 所有带有该路由的路劲都会被链接到下面的Service中
+      path: /ux-course/**
+      # 服务的名称
+      serviceId: eureka-client-ux-course
+      # 如果设置为true的话，那么路由到达服务的话上面的路由前缀ux-course会被去除
+      # 但我们在每个服务配置时，要求了每个服务都必须要有，所以此处一定为false
+      strip-prefix: false
+    user:
+      path: /ux-user/**
+      serviceId: eureka-client-ux-user
+      strip-prefix: false

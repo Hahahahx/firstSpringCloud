@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90c056f2-1bc9-46c9-8ec8-0dd8cd933c40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Eureka.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-eureka/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-eureka/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/target/ux-eureka-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ux-eureka/target/ux-eureka-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-eureka/target/ux-eureka-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ux-eureka/target/ux-eureka-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/classes/com/ux/AS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/src/main/java/com/ux/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/src/main/java/com/ux/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/classes/com/ux/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/classes/com/ux/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/classes/com/ux/uxCourseApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/classes/com/ux/uxCourseApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/course/target/test-classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/course/target/test-classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/src/main/java/com/ux/client/CourseClientHystrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/src/main/java/com/ux/client/CourseClientHystrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/target/classes/com/ux/client/CourseClientHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/target/classes/com/ux/client/CourseClientHystrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-service/user/target/test-classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-service/user/target/test-classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ux-zuul/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/target/ux-zuul-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ux-zuul/target/ux-zuul-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ux-zuul/target/ux-zuul-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/ux-zuul/target/ux-zuul-1.0-SNAPSHOT.jar.original" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ux_sc: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ux_sc: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="course: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ux_sc: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="ux_sc@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="ux_sc: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_course: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1csppZNrJENrgwDBVmsJ7LRCoW7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ux-service/user/src/test/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12196\Desktop\Study\springcloud-study\firstSpringCloud\ux-service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12196\Desktop\Study\springcloud-study\firstSpringCloud\ux-service\user\src\test\resources" />
+      <recent name="C:\Users\12196\Desktop\Study\springcloud-study\firstSpringCloud\ux-service\course\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.uxUserApplication">
+    <configuration name="UserServiceTest.getGetUserInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ux.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ux.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ux.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="getGetUserInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testCreateUsercCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ux.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ux.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ux.service.UserServiceTest" />
+      <option name="METHOD_NAME" value="testCreateUsercCourse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ux-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ux.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ux-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.ZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uxCourseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ux.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.uxCourseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uxUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ux.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ux.uxUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.uxUserApplication" />
+        <item itemvalue="Spring Boot.uxCourseApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="JUnit.UserServiceTest.testCreateUsercCourse" />
+        <item itemvalue="JUnit.UserServiceTest.getGetUserInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ux_sc@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:ux_sc@127.0.0.1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@65770113" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90c056f2-1bc9-46c9-8ec8-0dd8cd933c40" name="Default Changelist" comment="" />
+      <created>1591327339139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591327339139</updated>
+      <workItem from="1591327345329" duration="7046000" />
+      <workItem from="1591340767441" duration="8000000" />
+      <workItem from="1591428543086" duration="264000" />
+      <workItem from="1591490844480" duration="15064000" />
+      <workItem from="1591606785369" duration="4690000" />
+      <workItem from="1591662447833" duration="4870000" />
+      <workItem from="1591673698762" duration="3632000" />
+      <workItem from="1591757967707" duration="6061000" />
+      <workItem from="1592187349743" duration="1321000" />
+      <workItem from="1592813214547" duration="14544000" />
+      <workItem from="1593392685111" duration="9060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2472" y="179" key="#Assign_Data_Sources" timestamp="1592817024470">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="179" key="#Assign_Data_Sources/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592817024470" />
+    <state x="2472" y="179" key="#Assign_Data_Sources/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591687405476" />
+    <state x="2472" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591759836347">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591759836347" />
+    <state x="2472" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591687416835" />
+    <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1592959522386">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592959522386" />
+    <state x="2685" y="230" key="#com.intellij.ide.util.MemberChooser/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591686874054" />
+    <state x="2726" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1591673796159">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2726" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591673796159" />
+    <state x="2617" y="155" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1591663985372">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2617" y="155" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591663985372" />
+    <state x="2356" y="114" key="CommitChangelistDialog2" timestamp="1593419797592">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2356" y="114" key="CommitChangelistDialog2/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419797592" />
+    <state x="2541" y="159" key="DetectedRootsChooserDialog" timestamp="1591664063827">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2541" y="159" key="DetectedRootsChooserDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591664063827" />
+    <state x="2461" y="185" key="FileChooserDialogImpl" timestamp="1591674002486">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2461" y="185" key="FileChooserDialogImpl/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591674002486" />
+    <state width="938" height="268" key="GridCell.Tab.0.bottom" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.0.bottom/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="1808" height="281" key="GridCell.Tab.0.bottom/69.0.1851.1080@69.0.1851.1080" timestamp="1593003339551" />
+    <state width="1877" height="259" key="GridCell.Tab.0.bottom/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591664796615" />
+    <state width="938" height="268" key="GridCell.Tab.0.center" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.0.center/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="1808" height="281" key="GridCell.Tab.0.center/69.0.1851.1080@69.0.1851.1080" timestamp="1593003339551" />
+    <state width="1877" height="259" key="GridCell.Tab.0.center/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591664796615" />
+    <state width="938" height="268" key="GridCell.Tab.0.left" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.0.left/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="1808" height="281" key="GridCell.Tab.0.left/69.0.1851.1080@69.0.1851.1080" timestamp="1593003339551" />
+    <state width="1877" height="259" key="GridCell.Tab.0.left/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591664796615" />
+    <state width="938" height="268" key="GridCell.Tab.0.right" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.0.right/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="1808" height="281" key="GridCell.Tab.0.right/69.0.1851.1080@69.0.1851.1080" timestamp="1593003339551" />
+    <state width="1877" height="259" key="GridCell.Tab.0.right/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591664796615" />
+    <state width="938" height="268" key="GridCell.Tab.1.bottom" timestamp="1593419631549">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.1.bottom/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631549" />
+    <state width="938" height="268" key="GridCell.Tab.1.center" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.1.center/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="938" height="268" key="GridCell.Tab.1.left" timestamp="1593419631548">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.1.left/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631548" />
+    <state width="938" height="268" key="GridCell.Tab.1.right" timestamp="1593419631549">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="268" key="GridCell.Tab.1.right/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593419631549" />
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog" timestamp="1591609680927">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2410" y="175" key="Maven.ArtifactSearchDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591609680927" />
+    <state x="2602" y="149" key="NewModule_or_Project.wizard" timestamp="1591674004089">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2602" y="149" key="NewModule_or_Project.wizard/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591674004089" />
+    <state x="2463" y="97" width="998" height="708" key="SettingsEditor" timestamp="1592187478948">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2463" y="97" key="SettingsEditor/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592187478948" />
+    <state x="2463" y="97" width="998" height="708" key="SettingsEditor/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591674007736" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1593392688217">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593392688217" />
+    <state x="2560" y="344" key="com.intellij.ide.util.TipDialog/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591673700392" />
+    <state x="693" y="357" key="com.intellij.ide.util.TipDialog/79.0.1841.1080/1920.0.1920.1040@79.0.1841.1080" timestamp="1591490856762" />
+    <state x="693" y="357" key="com.intellij.ide.util.TipDialog/79.0.1841.1080@79.0.1841.1080" timestamp="1591428569236" />
+    <state x="2254" y="215" key="new project wizard" timestamp="1592814625732">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="215" key="new project wizard/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592814625732" />
+    <state x="2254" y="215" key="new project wizard/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591500187831" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1591342436675">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591342436675" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592816898643">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/69.0.1851.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592816898643" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/79.0.1841.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1591610003391" />
+  </component>
+</project>

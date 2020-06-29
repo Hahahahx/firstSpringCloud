@@ -1,0 +1,18 @@
+#如果此处是单点的Server所以一旦该服务挂了整个服务器也就挂了，在集群环境下，就算该服务挂了也不会影响到整个服务器运行
+
+spring:
+  application:
+    name: ux-eureka
+server:
+  port: 8000
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    # 表示是否从EurekaServer中获取注册信息，默认是true，单点的Server则需要将默认的改为false
+    fetch-registry: false
+    # 表示是否将自己注册到EurekaServer，默认是true，同上
+    register-with-eureka: false
+    # Eureka规定也是不允许使用相同的主机名和地址
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

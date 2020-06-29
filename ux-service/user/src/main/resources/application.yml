@@ -1,0 +1,34 @@
+server:
+  port: 7000
+  servlet:
+    context-path: /ux-user
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: eureka-client-ux-user
+  jpa:
+    # 是否打印数据库语句
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate.format_sql: true
+    open-in-view: false
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ux_sc?autoReconnect=true&characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true
+    username: root
+    password: huxin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      max-active: 4
+      min-idle: 2
+      initial-size: 2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://ux.server1.com:8000/eureka/
+feign:
+  hystrix:
+    enabled: true
